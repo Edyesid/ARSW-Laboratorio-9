@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "13c45b16-7052-4c16-9cad-e64d7dc6fa0d",
+		"name": "ARSW-Lab-9",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://functionprojectfibonacci-lab.azurewebsites.net/api/Fibonacci",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\":1000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functionprojectfibonacci-lab.azurewebsites.net/api/Fibonacci",
+					"protocol": "https",
+					"host": [
+						"functionprojectfibonacci-lab",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

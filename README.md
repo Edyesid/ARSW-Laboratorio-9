@@ -17,23 +17,21 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 1. Cree una Function App tal cual como se muestra en las  imagenes.
 
-![](images/part3/part3-function-config.png)
+![](images/lab/1.png)
 
-![](images/part3/part3-function-configii.png)
+![](images/lab/2.png)
 
 2. Instale la extensión de **Azure Functions** para Visual Studio Code.
 
-![](images/part3/part3-install-extension.png)
+![](images/lab/3.png)
 
 3. Despliegue la Function de Fibonacci a Azure usando Visual Studio Code. La primera vez que lo haga se le va a pedir autenticarse, siga las instrucciones.
 
-![](images/part3/part3-deploy-function-1.png)
-
-![](images/part3/part3-deploy-function-2.png)
+![](images/lab/4.png)
 
 4. Dirijase al portal de Azure y pruebe la function.
 
-![](images/part3/part3-test-function.png)
+![](images/lab/5.png)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
