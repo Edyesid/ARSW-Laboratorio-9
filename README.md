@@ -39,6 +39,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
+Se implemento una funcion fibonacci recursivo en donde se almacenan los valores calculados dentro de una lista de numeros, este enfoque hace que los calculos sean mas rapidos pero para poder calcular numero mas grandes la lista de memoria tiene que tener cada vez mas numeros.
+
+![](images/lab/fibo.png)
+
+En la primera ejecución no se podia calcular un numero grande como 130000, y luego de varias peticiones con numeros mas pequeños se logro realizar este calculo esto nos indica que la lista en memoria se guardaba y servia para calculos mas grandes
+
+![](images/lab/postman1.png)
+
+Luego de un tiempo si se realizaba la misma petición de 130000 arrojaba un error 500 esto debido a que la lista almacenada volvio a reiniciarce.
+
+![](images/lab/postman2.png)
+
 **Preguntas**
 
 * ¿Qué es un Azure Function?
